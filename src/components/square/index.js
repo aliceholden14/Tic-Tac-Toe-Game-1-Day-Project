@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 
-function Square({ val }) {
-  const [value, setValue] = useState("");
-
+function Square({ val, onClick }) {
+ 
   return (
     <button
       className="square"
       onClick={() => {
-        setValue("X");
+        onClick();
       }}
     >
-      {value}
+      { val }
     </button>
   );
 }

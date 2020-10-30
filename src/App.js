@@ -1,10 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Board from "./components/board/index"
+import Game from "./components/game/index"
 
 function App() {
+
+
   return (
-    <Board />
+    <Game />
   );
 }
 
