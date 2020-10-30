@@ -1,8 +1,19 @@
-import React from "react";
-import "../../App.css"
+import React, { useState } from "react";
+import "../../App.css";
 
-function Square({ value }) {
-  return <button className="square">{ value }</button>;
+function Square({ val }) {
+  const [value, setValue] = useState("");
+
+  return (
+    <button
+      className="square"
+      onClick={() => {
+        setValue("X");
+      }}
+    >
+      {value}
+    </button>
+  );
 }
 
-export default Square
+export default Square;
