@@ -7,7 +7,7 @@ function Square({ val, onClick }) {
     <button
       className="square"
       onClick={() => {
-        onClick();
+        onClick(val);
       }}
     >
       { val }
