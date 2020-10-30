@@ -1,11 +1,12 @@
 import "./App.css";
-import Game from "./components/game/index"
+import Game from "./components/game/index";
 
 function App() {
-
-
   return (
-    <Game />
+    <div id="container">
+      <h1>Tic Tac Toe</h1>
+      <Game />
+    </div>
   );
 }
 

@@ -1,9 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: rgb(43, 43, 43);
 }
 
-ol, ul {
+#container h1 {
+  width: 500px;
+  margin: 0 auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  color: #f1d4d4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+ol,
+ul {
   padding-left: 30px;
 }
 
@@ -21,15 +34,15 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
+  width: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
 }
 
 .square:focus {
@@ -43,8 +56,24 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .game-info {
   margin-left: 20px;
+  color: #c060a1;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.game-info ol li button {
+  background-color: #f1d4d4;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-family: "Century Gothic", Futura, sans-serif;
+}
+
+.game-board {
 }
