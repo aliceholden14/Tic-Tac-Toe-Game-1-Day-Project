@@ -1,11 +1,21 @@
-# React Hackathon
+# Tic Tac Toe
 
-For todays hackathon we are going to practice extracting relevant information from resources that are solving the same problem but in a different way.
+For this one day project, James Bowler and I worked together on producing a tic tac toe game.
 
-We will be making noughts and crosses - react style!
+Whilst doing so, we have refactored code from object oriented programming into stateful components using hooks.
 
-To have stateful components in react before hooks were invented you had to write a class component.
+## Component Tree
 
-Your task today is to apply what you've learnt about react whilst following [this tutorial](https://reactjs.org/tutorial/tutorial.html). Extract what you need and use your knowledge of modern react to inform how you write your components.
+- App
+  - Game
+    - Board
+      - Square
 
-Happy hacking!
+## Instructions
+
+If git cloning, please do an NPM install in your terminal.
+
+## Future Goals
+
+- Improve styling including making it responsive and the general UX/UI of the game.
+- Deploy the game.
